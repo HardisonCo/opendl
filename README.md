@@ -21,22 +21,22 @@ at one company; the parts that actually take years stay tribal knowledge.
 
 ## The 14
 
-| # | Challenge | Processes mapped |
-|---|---|---|
-| 1 | [Make Solar Energy Economical](challenges/solar.md) | 14 |
-| 2 | [Provide Energy from Fusion](challenges/fusion.md) | 13 |
-| 3 | [Develop Carbon Sequestration Methods](challenges/carbon.md) | 13 |
-| 4 | [Manage the Nitrogen Cycle](challenges/nitrogen.md) | 14 |
-| 5 | [Provide Access to Clean Water](challenges/water.md) | 14 |
-| 6 | [Restore and Improve Urban Infrastructure](challenges/urban.md) | 14 |
-| 7 | [Advance Health Informatics](challenges/healthinfo.md) | 12 |
-| 8 | [Engineer Better Medicines](challenges/medicines.md) | 14 |
-| 9 | [Reverse Engineer the Brain](challenges/brain.md) | 14 |
-| 10 | [Prevent Nuclear Terror](challenges/nuclear.md) | 13 |
-| 11 | [Secure Cyberspace](challenges/cyber.md) | 14 |
-| 12 | [Enhance Virtual Reality](challenges/vr.md) | 13 |
-| 13 | [Advance Personalized Learning](challenges/learning.md) | 13 |
-| 14 | [Engineer the Tools of Scientific Discovery](challenges/discovery.md) | 14 |
+| # | Challenge | Processes | Board |
+|---|---|---|---|
+| 1 | [Make Solar Energy Economical](challenges/solar.md) | 14 | [#194](https://github.com/orgs/HardisonCo/projects/194) |
+| 2 | [Provide Energy from Fusion](challenges/fusion.md) | 13 | [#206](https://github.com/orgs/HardisonCo/projects/206) |
+| 3 | [Develop Carbon Sequestration Methods](challenges/carbon.md) | 13 | [#196](https://github.com/orgs/HardisonCo/projects/196) |
+| 4 | [Manage the Nitrogen Cycle](challenges/nitrogen.md) | 14 | [#197](https://github.com/orgs/HardisonCo/projects/197) |
+| 5 | [Provide Access to Clean Water](challenges/water.md) | 14 | [#195](https://github.com/orgs/HardisonCo/projects/195) |
+| 6 | [Restore and Improve Urban Infrastructure](challenges/urban.md) | 14 | [#193](https://github.com/orgs/HardisonCo/projects/193) |
+| 7 | [Advance Health Informatics](challenges/healthinfo.md) | 12 | [#203](https://github.com/orgs/HardisonCo/projects/203) |
+| 8 | [Engineer Better Medicines](challenges/medicines.md) | 14 | [#200](https://github.com/orgs/HardisonCo/projects/200) |
+| 9 | [Reverse Engineer the Brain](challenges/brain.md) | 14 | [#205](https://github.com/orgs/HardisonCo/projects/205) |
+| 10 | [Prevent Nuclear Terror](challenges/nuclear.md) | 13 | [#204](https://github.com/orgs/HardisonCo/projects/204) |
+| 11 | [Secure Cyberspace](challenges/cyber.md) | 14 | [#201](https://github.com/orgs/HardisonCo/projects/201) |
+| 12 | [Enhance Virtual Reality](challenges/vr.md) | 13 | [#202](https://github.com/orgs/HardisonCo/projects/202) |
+| 13 | [Advance Personalized Learning](challenges/learning.md) | 13 | [#199](https://github.com/orgs/HardisonCo/projects/199) |
+| 14 | [Engineer the Tools of Scientific Discovery](challenges/discovery.md) | 14 | [#198](https://github.com/orgs/HardisonCo/projects/198) |
 
 189 processes across the 14.
 
