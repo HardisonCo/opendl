@@ -1,7 +1,7 @@
 # 7. Advance Health Informatics
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `health-informatics.openyc.org` (provisioning)
+**Status:** 12 of 12 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `health-informatics.openyc.org` (tenant spec authored; catalogue pool `opendl-health-informatics`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,17 +10,17 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- 42 CFR Part 2 SUD-records consent management under the 2024 final rule
-- ASTP/ONC Health IT Module certification and CHPL listing
-- CLIA certification and electronic lab reporting onboarding for the LIS
-- CMS Promoting Interoperability / MIPS PI attestation with CEHRT
-- DEA EPCS application third-party audit/certification (21 CFR Part 1311)
-- EHR vendor marketplace listing and SMART on FHIR app registration
-- FDA 510(k) clearance for device-classified clinical decision support
-- HIPAA Security Rule risk analysis, BAA chain, and breach-notification readiness
-- Information-blocking compliance program (45 CFR Part 171)
-- State-designated HIE participation and mandated reporting onboarding
-- Surescripts network certification on NCPDP SCRIPT 2017071
-- TEFCA participant onboarding via a Designated QHIN
+- **42 CFR Part 2 SUD-records consent management under the 2024 final rule** — `part2-sud-consent-management-compliance` · [EPIC #865](https://github.com/HardisonCo/codify-launch/issues/865) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/part2-sud-consent-management-compliance.json) · _protocol authored_
+- **ASTP/ONC Health IT Module certification and CHPL listing** — `onc-health-it-module-certification` · [EPIC #822](https://github.com/HardisonCo/codify-launch/issues/822) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/onc-health-it-module-certification.json) · _protocol authored_
+- **CLIA certification and electronic lab reporting onboarding for the LIS** — `clia-lab-lis-elr-onboarding` · [EPIC #862](https://github.com/HardisonCo/codify-launch/issues/862) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/clia-lab-lis-elr-onboarding.json) · _protocol authored_
+- **CMS Promoting Interoperability / MIPS PI attestation with CEHRT** — `cms-promoting-interoperability-attestation` · [EPIC #860](https://github.com/HardisonCo/codify-launch/issues/860) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/cms-promoting-interoperability-attestation.json) · _protocol authored_
+- **DEA EPCS application third-party audit/certification (21 CFR Part 1311)** — `dea-epcs-application-certification` · [EPIC #855](https://github.com/HardisonCo/codify-launch/issues/855) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/dea-epcs-application-certification.json) · _protocol authored_
+- **EHR vendor marketplace listing and SMART on FHIR app registration** — `ehr-marketplace-smart-on-fhir-listing` · [EPIC #868](https://github.com/HardisonCo/codify-launch/issues/868) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/ehr-marketplace-smart-on-fhir-listing.json) · _protocol authored_
+- **FDA 510(k) clearance for device-classified clinical decision support** — `fda-samd-cds-510k-clearance` · [EPIC #850](https://github.com/HardisonCo/codify-launch/issues/850) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/fda-samd-cds-510k-clearance.json) · _protocol authored_
+- **HIPAA Security Rule risk analysis, BAA chain, and breach-notification readiness** — `hipaa-security-risk-analysis-baa-program` · [EPIC #852](https://github.com/HardisonCo/codify-launch/issues/852) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/hipaa-security-risk-analysis-baa-program.json) · _protocol authored_
+- **Information-blocking compliance program (45 CFR Part 171)** — `information-blocking-compliance-program` · [EPIC #870](https://github.com/HardisonCo/codify-launch/issues/870) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/information-blocking-compliance-program.json) · _protocol authored_
+- **State-designated HIE participation and mandated reporting onboarding** — `state-hie-participation-onboarding` · [EPIC #873](https://github.com/HardisonCo/codify-launch/issues/873) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/state-hie-participation-onboarding.json) · _protocol authored_
+- **Surescripts network certification on NCPDP SCRIPT 2017071** — `surescripts-ncpdp-script-certification` · [EPIC #857](https://github.com/HardisonCo/codify-launch/issues/857) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/surescripts-ncpdp-script-certification.json) · _protocol authored_
+- **TEFCA participant onboarding via a Designated QHIN** — `tefca-qhin-participant-onboarding` · [EPIC #825](https://github.com/HardisonCo/codify-launch/issues/825) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-health-informatics/deals/tefca-qhin-participant-onboarding.json) · _protocol authored_
 
 12 processes mapped.

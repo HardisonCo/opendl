@@ -1,7 +1,7 @@
 # 1. Make Solar Energy Economical
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `solar.openyc.org` (provisioning)
+**Status:** 14 of 14 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `solar.openyc.org` (tenant spec authored; catalogue pool `opendl-solar`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,19 +10,19 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- BLM right-of-way grant and NEPA review for solar on public lands
-- CAISO market participation: Scheduling Coordinator + New Resource Implementation
-- Community solar under NY VDER: NY-Sun incentive + CDG enrollment
-- Construction stormwater: NPDES Construction General Permit NOI + SWPPP
-- DOE Loan Programs Office Title 17 clean energy financing
-- Distribution-level interconnection under CPUC Rule 21 (or state equivalent)
-- Inverter/module certification: UL 1741 SB via NRTL, then CEC equipment listing
-- New York major renewable siting permit (ORES under the RAPID Act)
-- PURPA Qualifying Facility self-certification (FERC Form 556)
-- PV module import compliance: UFLPA traceability + AD/CVD management
-- REC creation and RPS eligibility: WREGIS/GATS registration + state certification
-- Residential rooftop: SolarAPP+ instant permit, AHJ inspection, NEM/Net Billing enrollment
-- Section 48E ITC registration, PWA compliance, and §6418 credit transfer
-- Utility-scale transmission interconnection (FERC Order 2023 cluster study)
+- **BLM right-of-way grant and NEPA review for solar on public lands** — `blm-solar-row-application-nepa-review` · [EPIC #709](https://github.com/HardisonCo/codify-launch/issues/709) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/blm-solar-row-application-nepa-review.json) · _protocol authored_
+- **CAISO market participation: Scheduling Coordinator + New Resource Implementation** — `caiso-new-resource-implementation-market-participation` · [EPIC #723](https://github.com/HardisonCo/codify-launch/issues/723) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/caiso-new-resource-implementation-market-participation.json) · _protocol authored_
+- **Community solar under NY VDER: NY-Sun incentive + CDG enrollment** — `nyserda-community-solar-vder-enrollment` · [EPIC #716](https://github.com/HardisonCo/codify-launch/issues/716) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/nyserda-community-solar-vder-enrollment.json) · _protocol authored_
+- **Construction stormwater: NPDES Construction General Permit NOI + SWPPP** — `epa-cgp-npdes-stormwater-noi` · [EPIC #729](https://github.com/HardisonCo/codify-launch/issues/729) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/epa-cgp-npdes-stormwater-noi.json) · _protocol authored_
+- **DOE Loan Programs Office Title 17 clean energy financing** — `doe-lpo-title-17-loan-guarantee-application` · [EPIC #738](https://github.com/HardisonCo/codify-launch/issues/738) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/doe-lpo-title-17-loan-guarantee-application.json) · _protocol authored_
+- **Distribution-level interconnection under CPUC Rule 21 (or state equivalent)** — `state-puc-rule-21-distributed-interconnection` · [EPIC #698](https://github.com/HardisonCo/codify-launch/issues/698) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/state-puc-rule-21-distributed-interconnection.json) · _protocol authored_
+- **Inverter/module certification: UL 1741 SB via NRTL, then CEC equipment listing** — `ul-1741-sb-nrtl-certification-cec-listing` · [EPIC #702](https://github.com/HardisonCo/codify-launch/issues/702) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/ul-1741-sb-nrtl-certification-cec-listing.json) · _protocol authored_
+- **New York major renewable siting permit (ORES under the RAPID Act)** — `ny-rapid-act-ores-major-facility-siting` · [EPIC #713](https://github.com/HardisonCo/codify-launch/issues/713) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/ny-rapid-act-ores-major-facility-siting.json) · _protocol authored_
+- **PURPA Qualifying Facility self-certification (FERC Form 556)** — `ferc-form-556-qf-self-certification` · [EPIC #705](https://github.com/HardisonCo/codify-launch/issues/705) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/ferc-form-556-qf-self-certification.json) · _protocol authored_
+- **PV module import compliance: UFLPA traceability + AD/CVD management** — `cbp-uflpa-module-import-traceability` · [EPIC #733](https://github.com/HardisonCo/codify-launch/issues/733) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/cbp-uflpa-module-import-traceability.json) · _protocol authored_
+- **REC creation and RPS eligibility: WREGIS/GATS registration + state certification** — `rec-registration-wregis-rps-compliance` · [EPIC #726](https://github.com/HardisonCo/codify-launch/issues/726) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/rec-registration-wregis-rps-compliance.json) · _protocol authored_
+- **Residential rooftop: SolarAPP+ instant permit, AHJ inspection, NEM/Net Billing enrollment** — `solarapp-plus-residential-permit-and-net-billing` · [EPIC #719](https://github.com/HardisonCo/codify-launch/issues/719) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/solarapp-plus-residential-permit-and-net-billing.json) · _protocol authored_
+- **Section 48E ITC registration, PWA compliance, and §6418 credit transfer** — `irs-48e-eco-registration-and-credit-transfer` · [EPIC #700](https://github.com/HardisonCo/codify-launch/issues/700) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/irs-48e-eco-registration-and-credit-transfer.json) · _protocol authored_
+- **Utility-scale transmission interconnection (FERC Order 2023 cluster study)** — `ferc-order-2023-cluster-interconnection-request` · [EPIC #696](https://github.com/HardisonCo/codify-launch/issues/696) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-solar/deals/ferc-order-2023-cluster-interconnection-request.json) · _protocol authored_
 
 14 processes mapped.

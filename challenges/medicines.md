@@ -1,7 +1,7 @@
 # 8. Engineer Better Medicines
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `medicines.openyc.org` (provisioning)
+**Status:** 14 of 14 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `medicines.openyc.org` (tenant spec authored; catalogue pool `opendl-medicines`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,19 +10,19 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- 505(b)(2) NDA submission and the PDUFA review cycle for a reformulated or redelivered drug
-- Cell/gene therapy: IBC review under the NIH Guidelines, CBER OTP IND, and RMAT designation
-- Companion diagnostic: CLIA certification of the lab and FDA authorization of the test co-developed with the drug
-- DEA Schedule I researcher registration (and state controlled-substance licensure) for a clinical protocol
-- DSCSA enhanced drug distribution security onboarding for a new drug product's supply chain
-- Drug establishment registration, Type II DMF, and surviving the FDA pre-approval inspection
-- EU clinical trial authorisation under Regulation (EU) 536/2014 via CTIS
-- FDA Advanced Manufacturing Technologies (AMT) designation request and implementation in an application
-- IND — Investigational New Drug application (FDA, first-in-human enabling)
-- Individual-patient expanded access (single-patient IND) for an investigational medicine
-- Multi-site single-IRB reliance agreements plus ClinicalTrials.gov registration and results reporting
-- Orphan-drug designation request to FDA's Office of Orphan Products Development
-- Radiopharmaceutical/PET production: NRC or Agreement State materials license plus 21 CFR 212 cGMP
-- Rare Disease Evidence Principles (RDEP) request — single pivotal trial plus confirmatory evidence
+- **505(b)(2) NDA submission and the PDUFA review cycle for a reformulated or redelivered drug** — `nda-505b2-submission-and-pdufa-review` · [EPIC #806](https://github.com/HardisonCo/codify-launch/issues/806) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/nda-505b2-submission-and-pdufa-review.json) · _protocol authored_
+- **Cell/gene therapy: IBC review under the NIH Guidelines, CBER OTP IND, and RMAT designation** — `gene-therapy-ind-ibc-registration-and-rmat-designation` · [EPIC #777](https://github.com/HardisonCo/codify-launch/issues/777) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/gene-therapy-ind-ibc-registration-and-rmat-designation.json) · _protocol authored_
+- **Companion diagnostic: CLIA certification of the lab and FDA authorization of the test co-developed with the drug** — `companion-diagnostic-clia-certification-and-fda-marketing-authorization` · [EPIC #803](https://github.com/HardisonCo/codify-launch/issues/803) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/companion-diagnostic-clia-certification-and-fda-marketing-authorization.json) · _protocol authored_
+- **DEA Schedule I researcher registration (and state controlled-substance licensure) for a clinical protocol** — `schedule-i-controlled-substance-research-registration` · [EPIC #791](https://github.com/HardisonCo/codify-launch/issues/791) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/schedule-i-controlled-substance-research-registration.json) · _protocol authored_
+- **DSCSA enhanced drug distribution security onboarding for a new drug product's supply chain** — `dscsa-serialized-trading-partner-onboarding` · [EPIC #810](https://github.com/HardisonCo/codify-launch/issues/810) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/dscsa-serialized-trading-partner-onboarding.json) · _protocol authored_
+- **Drug establishment registration, Type II DMF, and surviving the FDA pre-approval inspection** — `drug-establishment-registration-dmf-and-pre-approval-inspection` · [EPIC #794](https://github.com/HardisonCo/codify-launch/issues/794) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/drug-establishment-registration-dmf-and-pre-approval-inspection.json) · _protocol authored_
+- **EU clinical trial authorisation under Regulation (EU) 536/2014 via CTIS** — `eu-ctr-clinical-trial-authorisation-via-ctis` · [EPIC #789](https://github.com/HardisonCo/codify-launch/issues/789) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/eu-ctr-clinical-trial-authorisation-via-ctis.json) · _protocol authored_
+- **FDA Advanced Manufacturing Technologies (AMT) designation request and implementation in an application** — `advanced-manufacturing-technology-designation-request` · [EPIC #797](https://github.com/HardisonCo/codify-launch/issues/797) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/advanced-manufacturing-technology-designation-request.json) · _protocol authored_
+- **IND — Investigational New Drug application (FDA, first-in-human enabling)** — `ind-investigational-new-drug-application` · [EPIC #775](https://github.com/HardisonCo/codify-launch/issues/775) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/ind-investigational-new-drug-application.json) · _protocol authored_
+- **Individual-patient expanded access (single-patient IND) for an investigational medicine** — `expanded-access-single-patient-ind` · [EPIC #808](https://github.com/HardisonCo/codify-launch/issues/808) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/expanded-access-single-patient-ind.json) · _protocol authored_
+- **Multi-site single-IRB reliance agreements plus ClinicalTrials.gov registration and results reporting** — `multisite-single-irb-reliance-and-trial-registration` · [EPIC #786](https://github.com/HardisonCo/codify-launch/issues/786) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/multisite-single-irb-reliance-and-trial-registration.json) · _protocol authored_
+- **Orphan-drug designation request to FDA's Office of Orphan Products Development** — `fda-orphan-drug-designation-request` · [EPIC #780](https://github.com/HardisonCo/codify-launch/issues/780) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/fda-orphan-drug-designation-request.json) · _protocol authored_
+- **Radiopharmaceutical/PET production: NRC or Agreement State materials license plus 21 CFR 212 cGMP** — `radiopharmaceutical-production-licensing-and-pet-cgmp` · [EPIC #800](https://github.com/HardisonCo/codify-launch/issues/800) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/radiopharmaceutical-production-licensing-and-pet-cgmp.json) · _protocol authored_
+- **Rare Disease Evidence Principles (RDEP) request — single pivotal trial plus confirmatory evidence** — `rare-disease-evidence-principles-request` · [EPIC #783](https://github.com/HardisonCo/codify-launch/issues/783) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-medicines/deals/rare-disease-evidence-principles-request.json) · _protocol authored_
 
 14 processes mapped.

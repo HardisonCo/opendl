@@ -1,7 +1,7 @@
 # 9. Reverse Engineer the Brain
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `brain.openyc.org` (provisioning)
+**Status:** 14 of 14 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `brain.openyc.org` (tenant spec authored; catalogue pool `opendl-brain`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,19 +10,19 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- BCI export-control classification and research-security review
-- CMS TCET nomination and Medicare coverage for a neural implant
-- DOE INCITE allocation for large-scale brain simulation and connectomics
-- ESCRO/SCRO review of human neural organoid and chimera research
-- EU MDR clinical investigation and CE marking for a neural implant
-- FCC MedRadio equipment authorization for a wireless neural implant
-- FDA IDE for an implanted BCI early feasibility study
-- IACUC protocol for nonhuman primate neurophysiology
-- NIH BRAIN Initiative award application and peer review
-- Neural-data privacy compliance program (California / Colorado and global baseline)
-- QMSR design transfer and postmarket surveillance for a neuroprosthesis
-- RDRC authorization for a PET neuroimaging tracer study
-- Single-IRB protocol for human intracranial neural recording
-- Standards-conformant neural data release to DANDI
+- **BCI export-control classification and research-security review** — `bci-export-control-and-research-security-review` · [EPIC #839](https://github.com/HardisonCo/codify-launch/issues/839) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/bci-export-control-and-research-security-review.json) · _protocol authored_
+- **CMS TCET nomination and Medicare coverage for a neural implant** — `cms-tcet-nomination-and-medicare-coverage-neural-implant` · [EPIC #837](https://github.com/HardisonCo/codify-launch/issues/837) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/cms-tcet-nomination-and-medicare-coverage-neural-implant.json) · _protocol authored_
+- **DOE INCITE allocation for large-scale brain simulation and connectomics** — `doe-incite-leadership-computing-allocation-whole-brain-simulation` · [EPIC #842](https://github.com/HardisonCo/codify-launch/issues/842) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/doe-incite-leadership-computing-allocation-whole-brain-simulation.json) · _protocol authored_
+- **ESCRO/SCRO review of human neural organoid and chimera research** — `escro-human-neural-organoid-chimera-protocol` · [EPIC #840](https://github.com/HardisonCo/codify-launch/issues/840) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/escro-human-neural-organoid-chimera-protocol.json) · _protocol authored_
+- **EU MDR clinical investigation and CE marking for a neural implant** — `eu-mdr-clinical-investigation-ce-marking-neural-implant` · [EPIC #841](https://github.com/HardisonCo/codify-launch/issues/841) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/eu-mdr-clinical-investigation-ce-marking-neural-implant.json) · _protocol authored_
+- **FCC MedRadio equipment authorization for a wireless neural implant** — `fcc-medradio-equipment-authorization-wireless-neural-implant` · [EPIC #835](https://github.com/HardisonCo/codify-launch/issues/835) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/fcc-medradio-equipment-authorization-wireless-neural-implant.json) · _protocol authored_
+- **FDA IDE for an implanted BCI early feasibility study** — `fda-ide-implanted-bci-early-feasibility-study` · [EPIC #829](https://github.com/HardisonCo/codify-launch/issues/829) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/fda-ide-implanted-bci-early-feasibility-study.json) · _protocol authored_
+- **IACUC protocol for nonhuman primate neurophysiology** — `iacuc-nonhuman-primate-neurophysiology-protocol` · [EPIC #831](https://github.com/HardisonCo/codify-launch/issues/831) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/iacuc-nonhuman-primate-neurophysiology-protocol.json) · _protocol authored_
+- **NIH BRAIN Initiative award application and peer review** — `nih-brain-initiative-r01-application-and-peer-review` · [EPIC #832](https://github.com/HardisonCo/codify-launch/issues/832) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/nih-brain-initiative-r01-application-and-peer-review.json) · _protocol authored_
+- **Neural-data privacy compliance program (California / Colorado and global baseline)** — `state-neural-data-privacy-compliance-program` · [EPIC #838](https://github.com/HardisonCo/codify-launch/issues/838) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/state-neural-data-privacy-compliance-program.json) · _protocol authored_
+- **QMSR design transfer and postmarket surveillance for a neuroprosthesis** — `qmsr-design-transfer-and-postmarket-surveillance-neuroprosthesis` · [EPIC #836](https://github.com/HardisonCo/codify-launch/issues/836) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/qmsr-design-transfer-and-postmarket-surveillance-neuroprosthesis.json) · _protocol authored_
+- **RDRC authorization for a PET neuroimaging tracer study** — `rdrc-pet-neuroimaging-tracer-basic-research-authorization` · [EPIC #834](https://github.com/HardisonCo/codify-launch/issues/834) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/rdrc-pet-neuroimaging-tracer-basic-research-authorization.json) · _protocol authored_
+- **Single-IRB protocol for human intracranial neural recording** — `single-irb-human-intracranial-recording-protocol` · [EPIC #830](https://github.com/HardisonCo/codify-launch/issues/830) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/single-irb-human-intracranial-recording-protocol.json) · _protocol authored_
+- **Standards-conformant neural data release to DANDI** — `nwb-dandi-neurophysiology-data-release` · [EPIC #833](https://github.com/HardisonCo/codify-launch/issues/833) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-brain/deals/nwb-dandi-neurophysiology-data-release.json) · _protocol authored_
 
 14 processes mapped.

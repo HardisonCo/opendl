@@ -1,7 +1,7 @@
 # 3. Develop Carbon Sequestration Methods
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `carbon.openyc.org` (provisioning)
+**Status:** 13 of 13 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `carbon.openyc.org` (tenant spec authored; catalogue pool `opendl-carbon`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,18 +10,18 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- Blue-carbon restoration: USACE Section 404/Section 10 permitting stack
-- CARB compliance offset issuance under the U.S. Forest Projects protocol
-- CO2 pipeline certificate of authority (Illinois ICC) with PHMSA Part 195 compliance
-- California LCFS CCS Protocol permanence certification and credit generation
-- DOE OCED/FECM funding award with NEPA review (CarbonSAFE, Regional DAC Hubs)
-- EPA GHGRP Subpart RR MRV plan approval and annual reporting
-- Enhanced rock weathering: state-by-state soil amendment / ag lime registration
-- IRS Section 45Q sequestration tax credit qualification and claim
-- Marine CDR field trial: EPA MPRSA research permit
-- North Dakota storage facility permit and pore-space amalgamation
-- Offshore sub-seabed storage: BOEM/BSEE OCS carbon sequestration authorization
-- UIC Class VI geologic sequestration injection well permit
-- Voluntary soil-carbon credit issuance via Verra VCS VM0042
+- **Blue-carbon restoration: USACE Section 404/Section 10 permitting stack** — `usace-blue-carbon-restoration-permit-stack` · [EPIC #735](https://github.com/HardisonCo/codify-launch/issues/735) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/usace-blue-carbon-restoration-permit-stack.json) · _protocol authored_
+- **CARB compliance offset issuance under the U.S. Forest Projects protocol** — `carb-compliance-offset-forest-project-issuance` · [EPIC #728](https://github.com/HardisonCo/codify-launch/issues/728) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/carb-compliance-offset-forest-project-issuance.json) · _protocol authored_
+- **CO2 pipeline certificate of authority (Illinois ICC) with PHMSA Part 195 compliance** — `illinois-icc-co2-pipeline-certificate-of-authority` · [EPIC #717](https://github.com/HardisonCo/codify-launch/issues/717) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/illinois-icc-co2-pipeline-certificate-of-authority.json) · _protocol authored_
+- **California LCFS CCS Protocol permanence certification and credit generation** — `carb-lcfs-ccs-permanence-certification` · [EPIC #725](https://github.com/HardisonCo/codify-launch/issues/725) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/carb-lcfs-ccs-permanence-certification.json) · _protocol authored_
+- **DOE OCED/FECM funding award with NEPA review (CarbonSAFE, Regional DAC Hubs)** — `doe-oced-award-nepa-review` · [EPIC #744](https://github.com/HardisonCo/codify-launch/issues/744) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/doe-oced-award-nepa-review.json) · _protocol authored_
+- **EPA GHGRP Subpart RR MRV plan approval and annual reporting** — `ghgrp-subpart-rr-mrv-plan-approval` · [EPIC #710](https://github.com/HardisonCo/codify-launch/issues/710) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/ghgrp-subpart-rr-mrv-plan-approval.json) · _protocol authored_
+- **Enhanced rock weathering: state-by-state soil amendment / ag lime registration** — `state-soil-amendment-registration-enhanced-weathering` · [EPIC #740](https://github.com/HardisonCo/codify-launch/issues/740) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/state-soil-amendment-registration-enhanced-weathering.json) · _protocol authored_
+- **IRS Section 45Q sequestration tax credit qualification and claim** — `irs-45q-credit-qualification-claim` · [EPIC #714](https://github.com/HardisonCo/codify-launch/issues/714) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/irs-45q-credit-qualification-claim.json) · _protocol authored_
+- **Marine CDR field trial: EPA MPRSA research permit** — `epa-mprsa-marine-cdr-research-permit` · [EPIC #722](https://github.com/HardisonCo/codify-launch/issues/722) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/epa-mprsa-marine-cdr-research-permit.json) · _protocol authored_
+- **North Dakota storage facility permit and pore-space amalgamation** — `ndic-storage-facility-permit-pore-space-amalgamation` · [EPIC #706](https://github.com/HardisonCo/codify-launch/issues/706) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/ndic-storage-facility-permit-pore-space-amalgamation.json) · _protocol authored_
+- **Offshore sub-seabed storage: BOEM/BSEE OCS carbon sequestration authorization** — `boem-ocs-carbon-sequestration-authorization` · [EPIC #720](https://github.com/HardisonCo/codify-launch/issues/720) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/boem-ocs-carbon-sequestration-authorization.json) · _protocol authored_
+- **UIC Class VI geologic sequestration injection well permit** — `uic-class-vi-injection-permit` · [EPIC #704](https://github.com/HardisonCo/codify-launch/issues/704) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/uic-class-vi-injection-permit.json) · _protocol authored_
+- **Voluntary soil-carbon credit issuance via Verra VCS VM0042** — `verra-vcs-vm0042-soil-carbon-credit-issuance` · [EPIC #731](https://github.com/HardisonCo/codify-launch/issues/731) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-carbon/deals/verra-vcs-vm0042-soil-carbon-credit-issuance.json) · _protocol authored_
 
 13 processes mapped.

@@ -1,7 +1,7 @@
 # 10. Prevent Nuclear Terror
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `nuclear-security.openyc.org` (provisioning)
+**Status:** 13 of 13 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `nuclear-security.openyc.org` (tenant spec authored; catalogue pool `opendl-nuclear-security`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,18 +10,18 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- BIS export license for NSG dual-use, nuclear-related items under the EAR (15 CFR 730-774, NP controls)
-- Certificate of Compliance for a Type B radioactive-material transport package (10 CFR Part 71)
-- DHS SAFETY Act designation/certification for anti-terrorism technologies (6 CFR Part 25)
-- DOE Part 810 authorization for transfer of nuclear technology or assistance to foreign entities (10 CFR Part 810)
-- Fingerprint-based FBI criminal history checks for unescorted access and Safeguards Information (10 CFR 73.57)
-- NNSA/ORS Cesium Irradiator Replacement Project: subsidized swap of Cs-137 irradiators for X-ray devices
-- NRC specific license for export/import of nuclear materials and equipment (10 CFR Part 110)
-- NRC/Agreement State specific license for byproduct radioactive material (10 CFR Part 30, Form 313)
-- National Source Tracking System transaction reports for Category 1/2 sealed sources (10 CFR 20.2207)
-- Physical protection and route approval for shipments of irradiated reactor fuel (10 CFR 73.37)
-- Physical protection program for Category 1/2 quantities of radioactive material (10 CFR Part 37)
-- Reactor cyber security plan compliance and vendor CDA qualification (10 CFR 73.54, NEI 08-09)
-- U.S. Additional Protocol declarations via the Commerce APRS (15 CFR Parts 781-786)
+- **BIS export license for NSG dual-use, nuclear-related items under the EAR (15 CFR 730-774, NP controls)** — `bis-nuclear-dual-use-export-license` · [EPIC #846](https://github.com/HardisonCo/codify-launch/issues/846) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/bis-nuclear-dual-use-export-license.json) · _protocol authored_
+- **Certificate of Compliance for a Type B radioactive-material transport package (10 CFR Part 71)** — `nrc-part-71-type-b-package-certification` · [EPIC #849](https://github.com/HardisonCo/codify-launch/issues/849) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/nrc-part-71-type-b-package-certification.json) · _protocol authored_
+- **DHS SAFETY Act designation/certification for anti-terrorism technologies (6 CFR Part 25)** — `dhs-safety-act-designation` · [EPIC #856](https://github.com/HardisonCo/codify-launch/issues/856) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/dhs-safety-act-designation.json) · _protocol authored_
+- **DOE Part 810 authorization for transfer of nuclear technology or assistance to foreign entities (10 CFR Part 810)** — `doe-nnsa-part-810-specific-authorization` · [EPIC #845](https://github.com/HardisonCo/codify-launch/issues/845) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/doe-nnsa-part-810-specific-authorization.json) · _protocol authored_
+- **Fingerprint-based FBI criminal history checks for unescorted access and Safeguards Information (10 CFR 73.57)** — `nrc-73-57-access-authorization-fingerprinting` · [EPIC #863](https://github.com/HardisonCo/codify-launch/issues/863) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/nrc-73-57-access-authorization-fingerprinting.json) · _protocol authored_
+- **NNSA/ORS Cesium Irradiator Replacement Project: subsidized swap of Cs-137 irradiators for X-ray devices** — `nnsa-cirp-cesium-irradiator-replacement` · [EPIC #843](https://github.com/HardisonCo/codify-launch/issues/843) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/nnsa-cirp-cesium-irradiator-replacement.json) · _protocol authored_
+- **NRC specific license for export/import of nuclear materials and equipment (10 CFR Part 110)** — `nrc-part-110-export-import-license` · [EPIC #844](https://github.com/HardisonCo/codify-launch/issues/844) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/nrc-part-110-export-import-license.json) · _protocol authored_
+- **NRC/Agreement State specific license for byproduct radioactive material (10 CFR Part 30, Form 313)** — `nrc-part-30-byproduct-materials-license` · [EPIC #821](https://github.com/HardisonCo/codify-launch/issues/821) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/nrc-part-30-byproduct-materials-license.json) · _protocol authored_
+- **National Source Tracking System transaction reports for Category 1/2 sealed sources (10 CFR 20.2207)** — `nsts-source-transaction-reporting` · [EPIC #826](https://github.com/HardisonCo/codify-launch/issues/826) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/nsts-source-transaction-reporting.json) · _protocol authored_
+- **Physical protection and route approval for shipments of irradiated reactor fuel (10 CFR 73.37)** — `nrc-73-37-irradiated-fuel-shipment-security` · [EPIC #853](https://github.com/HardisonCo/codify-launch/issues/853) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/nrc-73-37-irradiated-fuel-shipment-security.json) · _protocol authored_
+- **Physical protection program for Category 1/2 quantities of radioactive material (10 CFR Part 37)** — `part-37-category-1-2-source-security-program` · [EPIC #823](https://github.com/HardisonCo/codify-launch/issues/823) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/part-37-category-1-2-source-security-program.json) · _protocol authored_
+- **Reactor cyber security plan compliance and vendor CDA qualification (10 CFR 73.54, NEI 08-09)** — `nrc-73-54-cyber-security-plan` · [EPIC #859](https://github.com/HardisonCo/codify-launch/issues/859) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/nrc-73-54-cyber-security-plan.json) · _protocol authored_
+- **U.S. Additional Protocol declarations via the Commerce APRS (15 CFR Parts 781-786)** — `bis-additional-protocol-declaration` · [EPIC #867](https://github.com/HardisonCo/codify-launch/issues/867) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nuclear-security/deals/bis-additional-protocol-declaration.json) · _protocol authored_
 
 13 processes mapped.
