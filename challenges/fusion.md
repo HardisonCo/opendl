@@ -1,7 +1,7 @@
 # 2. Provide Energy from Fusion
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `fusion.openyc.org` (provisioning)
+**Status:** 13 of 13 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `fusion.openyc.org` (tenant spec authored; catalogue pool `opendl-fusion`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,18 +10,18 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- DOE INFUSE award and CRADA execution with a national laboratory
-- DOE Loan Programs Office Title 17 clean-energy financing for a first-of-a-kind plant
-- DOE Milestone-Based Fusion Development Program award negotiation and milestone verification
-- Export-control classification and deemed-export licensing for fusion technology (Commerce/BIS)
-- NEPA environmental review for a DOE-funded fusion facility (10 CFR Part 1021)
-- NPDES permit for cooling-water and industrial wastewater discharge
-- Power offtake: PPA execution + FERC Section 205 market-based-rate authority
-- Radioactive materials license for a fusion machine (10 CFR Part 30 / Agreement State)
-- Startup tritium inventory: NRC 10 CFR Part 110 import + CNSC export from Canada
-- State PUC certificate of public convenience and necessity / generation siting approval
-- Transmission interconnection queue application under FERC Order 2023 (LGIA)
-- Tritium air-emissions authorization and dose-constraint compliance
-- UK siting path: Environment Agency permit + HSE oversight under the Energy Act 2023
+- **DOE INFUSE award and CRADA execution with a national laboratory** — `infuse-national-lab-crada` · [EPIC #889](https://github.com/HardisonCo/codify-launch/issues/889) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/infuse-national-lab-crada.json) · _protocol authored_
+- **DOE Loan Programs Office Title 17 clean-energy financing for a first-of-a-kind plant** — `doe-lpo-title-17-loan-guarantee` · [EPIC #887](https://github.com/HardisonCo/codify-launch/issues/887) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/doe-lpo-title-17-loan-guarantee.json) · _protocol authored_
+- **DOE Milestone-Based Fusion Development Program award negotiation and milestone verification** — `doe-milestone-fusion-development-award` · [EPIC #878](https://github.com/HardisonCo/codify-launch/issues/878) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/doe-milestone-fusion-development-award.json) · _protocol authored_
+- **Export-control classification and deemed-export licensing for fusion technology (Commerce/BIS)** — `bis-ear-export-classification-deemed-export` · [EPIC #883](https://github.com/HardisonCo/codify-launch/issues/883) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/bis-ear-export-classification-deemed-export.json) · _protocol authored_
+- **NEPA environmental review for a DOE-funded fusion facility (10 CFR Part 1021)** — `nepa-environmental-review-doe-funded-facility` · [EPIC #881](https://github.com/HardisonCo/codify-launch/issues/881) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/nepa-environmental-review-doe-funded-facility.json) · _protocol authored_
+- **NPDES permit for cooling-water and industrial wastewater discharge** — `npdes-industrial-discharge-permit` · [EPIC #884](https://github.com/HardisonCo/codify-launch/issues/884) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/npdes-industrial-discharge-permit.json) · _protocol authored_
+- **Power offtake: PPA execution + FERC Section 205 market-based-rate authority** — `ferc-market-based-rate-authority-ppa-offtake` · [EPIC #888](https://github.com/HardisonCo/codify-launch/issues/888) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/ferc-market-based-rate-authority-ppa-offtake.json) · _protocol authored_
+- **Radioactive materials license for a fusion machine (10 CFR Part 30 / Agreement State)** — `agreement-state-fusion-byproduct-materials-license` · [EPIC #877](https://github.com/HardisonCo/codify-launch/issues/877) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/agreement-state-fusion-byproduct-materials-license.json) · _protocol authored_
+- **Startup tritium inventory: NRC 10 CFR Part 110 import + CNSC export from Canada** — `nrc-part-110-tritium-import-license` · [EPIC #882](https://github.com/HardisonCo/codify-launch/issues/882) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/nrc-part-110-tritium-import-license.json) · _protocol authored_
+- **State PUC certificate of public convenience and necessity / generation siting approval** — `state-puc-cpcn-generation-siting` · [EPIC #880](https://github.com/HardisonCo/codify-launch/issues/880) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/state-puc-cpcn-generation-siting.json) · _protocol authored_
+- **Transmission interconnection queue application under FERC Order 2023 (LGIA)** — `ferc-large-generator-interconnection-request` · [EPIC #879](https://github.com/HardisonCo/codify-launch/issues/879) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/ferc-large-generator-interconnection-request.json) · _protocol authored_
+- **Tritium air-emissions authorization and dose-constraint compliance** — `radionuclide-air-emissions-authorization` · [EPIC #885](https://github.com/HardisonCo/codify-launch/issues/885) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/radionuclide-air-emissions-authorization.json) · _protocol authored_
+- **UK siting path: Environment Agency permit + HSE oversight under the Energy Act 2023** — `uk-fusion-facility-environmental-permit` · [EPIC #886](https://github.com/HardisonCo/codify-launch/issues/886) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-fusion/deals/uk-fusion-facility-environmental-permit.json) · _protocol authored_
 
 13 processes mapped.

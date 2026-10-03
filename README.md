@@ -42,8 +42,15 @@ at one company; the parts that actually take years stay tribal knowledge.
 
 ## Status — read this before citing anything here
 
-Every page in `challenges/` is a **specification**, not a shipped system. The
-processes are real and sourced from statute and agency practice; the protocols that
-execute them are in progress. Nothing here claims a solved challenge.
+Every page in `challenges/` is a **specification with an authored protocol pack**, not
+a shipped system. The processes are real and sourced from statute and agency practice.
+As of 2026-09-23 all 189 have an authored, source-cited protocol pack (intent + deal
+template + reviewed step typings) in
+[CI-API `Modules/Codify/Database/Seeders/bundles/opendl-<label>/`](https://github.com/HardisonCo/CI-API/tree/main/Modules/Codify/Database/Seeders/bundles)
+— each re-derived from primary sources (eCFR, statute, the agency's own forms and
+pages) and adversarially verified against them. Each challenge page links every
+process to its slug, its codify-launch EPIC and its pack. Program generation on the
+`<label>.openyc.org` tenants is the operator's lane and is not yet done. Nothing here
+claims a solved challenge.
 
 Runtime and surfaces: https://opendl.ai

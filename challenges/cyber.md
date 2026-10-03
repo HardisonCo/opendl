@@ -1,7 +1,7 @@
 # 11. Secure Cyberspace
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `cyberspace.openyc.org` (provisioning)
+**Status:** 14 of 14 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `cyberspace.openyc.org` (tenant spec authored; catalogue pool `opendl-cyberspace`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,19 +10,19 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- BIS Encryption Export Classification and License Exception ENC
-- CIRCIA 72-Hour Covered Cyber Incident Reporting
-- CMMC Level 2 Certification Assessment (DoD Supply Chain)
-- CVE Numbering Authority (CNA) Onboarding
-- Coordinated Vulnerability Disclosure (CERT/CC VINCE and CISA CVD)
-- DFARS/SPRS NIST SP 800-171 Basic Self-Assessment
-- FCC U.S. Cyber Trust Mark IoT Product Labeling
-- FIPS 140-3 Cryptographic Module Validation (CMVP)
-- FedRAMP 20x Cloud Service Authorization
-- NIAP Common Criteria Evaluation for National Security Systems
-- NYDFS 23 NYCRR Part 500 Certification and 72-Hour Event Notice
-- PCI DSS v4 Level 1 Report on Compliance
-- SEC Material Cybersecurity Incident Disclosure (Form 8-K Item 1.05)
-- SOC 2 Type II Attestation Examination
+- **BIS Encryption Export Classification and License Exception ENC** — `bis-encryption-export-classification` · [EPIC #782](https://github.com/HardisonCo/codify-launch/issues/782) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/bis-encryption-export-classification.json) · _protocol authored_
+- **CIRCIA 72-Hour Covered Cyber Incident Reporting** — `circia-covered-incident-reporting` · [EPIC #790](https://github.com/HardisonCo/codify-launch/issues/790) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/circia-covered-incident-reporting.json) · _protocol authored_
+- **CMMC Level 2 Certification Assessment (DoD Supply Chain)** — `cmmc-level-2-c3pao-certification` · [EPIC #772](https://github.com/HardisonCo/codify-launch/issues/772) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/cmmc-level-2-c3pao-certification.json) · _protocol authored_
+- **CVE Numbering Authority (CNA) Onboarding** — `cve-numbering-authority-onboarding` · [EPIC #785](https://github.com/HardisonCo/codify-launch/issues/785) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/cve-numbering-authority-onboarding.json) · _protocol authored_
+- **Coordinated Vulnerability Disclosure (CERT/CC VINCE and CISA CVD)** — `coordinated-vulnerability-disclosure` · [EPIC #788](https://github.com/HardisonCo/codify-launch/issues/788) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/coordinated-vulnerability-disclosure.json) · _protocol authored_
+- **DFARS/SPRS NIST SP 800-171 Basic Self-Assessment** — `sprs-nist-800-171-self-assessment` · [EPIC #773](https://github.com/HardisonCo/codify-launch/issues/773) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/sprs-nist-800-171-self-assessment.json) · _protocol authored_
+- **FCC U.S. Cyber Trust Mark IoT Product Labeling** — `fcc-cyber-trust-mark-labeling` · [EPIC #799](https://github.com/HardisonCo/codify-launch/issues/799) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/fcc-cyber-trust-mark-labeling.json) · _protocol authored_
+- **FIPS 140-3 Cryptographic Module Validation (CMVP)** — `fips-140-3-cmvp-validation` · [EPIC #776](https://github.com/HardisonCo/codify-launch/issues/776) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/fips-140-3-cmvp-validation.json) · _protocol authored_
+- **FedRAMP 20x Cloud Service Authorization** — `fedramp-20x-authorization` · [EPIC #770](https://github.com/HardisonCo/codify-launch/issues/770) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/fedramp-20x-authorization.json) · _protocol authored_
+- **NIAP Common Criteria Evaluation for National Security Systems** — `niap-common-criteria-evaluation` · [EPIC #779](https://github.com/HardisonCo/codify-launch/issues/779) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/niap-common-criteria-evaluation.json) · _protocol authored_
+- **NYDFS 23 NYCRR Part 500 Certification and 72-Hour Event Notice** — `nydfs-part-500-compliance-certification` · [EPIC #796](https://github.com/HardisonCo/codify-launch/issues/796) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/nydfs-part-500-compliance-certification.json) · _protocol authored_
+- **PCI DSS v4 Level 1 Report on Compliance** — `pci-dss-v4-level1-roc-assessment` · [EPIC #802](https://github.com/HardisonCo/codify-launch/issues/802) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/pci-dss-v4-level1-roc-assessment.json) · _protocol authored_
+- **SEC Material Cybersecurity Incident Disclosure (Form 8-K Item 1.05)** — `sec-cyber-incident-8k-disclosure` · [EPIC #793](https://github.com/HardisonCo/codify-launch/issues/793) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/sec-cyber-incident-8k-disclosure.json) · _protocol authored_
+- **SOC 2 Type II Attestation Examination** — `soc2-type2-attestation` · [EPIC #805](https://github.com/HardisonCo/codify-launch/issues/805) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-cyberspace/deals/soc2-type2-attestation.json) · _protocol authored_
 
 14 processes mapped.

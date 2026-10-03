@@ -1,7 +1,7 @@
 # 5. Provide Access to Clean Water
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `water.openyc.org` (provisioning)
+**Status:** 14 of 14 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `water.openyc.org` (tenant spec authored; catalogue pool `opendl-water`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,19 +10,19 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- AWIA §2013 / SDWA §1433 risk and resilience assessment and ERP recertification
-- Aquifer storage and recovery / managed aquifer recharge UIC authorization
-- Arizona Designation of Assured Water Supply (ADWR, 100-year test)
-- CPUC Class A water utility general rate case (three-year Rate Case Plan cycle)
-- CWA §404 dredge-and-fill permit with §401 state certification
-- California direct potable reuse project permitting (Title 22, effective Oct 1, 2024)
-- Colorado water court change of water right / plan for augmentation decree
-- DWSRF/CWSRF priority-list funding stacked with an EPA WIFIA loan
-- Kenya WASREB water services licence and tariff adjustment
-- LCRI service line inventory, replacement plan, and mandatory replacement
-- NPDES individual discharge permit issuance (CWA §402)
-- New public water system / new source approval and start-up (SDWA primacy agency)
-- PFAS drinking water rule: monitoring, public reporting, and treatment compliance
-- SDWA Tier 1 public notification and boil-water advisory response
+- **AWIA §2013 / SDWA §1433 risk and resilience assessment and ERP recertification** — `awia-risk-and-resilience-recertification` · [EPIC #757](https://github.com/HardisonCo/codify-launch/issues/757) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/awia-risk-and-resilience-recertification.json) · _protocol authored_
+- **Aquifer storage and recovery / managed aquifer recharge UIC authorization** — `managed-aquifer-recharge-uic-authorization` · [EPIC #753](https://github.com/HardisonCo/codify-launch/issues/753) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/managed-aquifer-recharge-uic-authorization.json) · _protocol authored_
+- **Arizona Designation of Assured Water Supply (ADWR, 100-year test)** — `arizona-assured-water-supply-designation` · [EPIC #755](https://github.com/HardisonCo/codify-launch/issues/755) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/arizona-assured-water-supply-designation.json) · _protocol authored_
+- **CPUC Class A water utility general rate case (three-year Rate Case Plan cycle)** — `cpuc-class-a-water-general-rate-case` · [EPIC #759](https://github.com/HardisonCo/codify-launch/issues/759) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/cpuc-class-a-water-general-rate-case.json) · _protocol authored_
+- **CWA §404 dredge-and-fill permit with §401 state certification** — `cwa-404-401-water-project-authorization` · [EPIC #736](https://github.com/HardisonCo/codify-launch/issues/736) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/cwa-404-401-water-project-authorization.json) · _protocol authored_
+- **California direct potable reuse project permitting (Title 22, effective Oct 1, 2024)** — `california-direct-potable-reuse-permitting` · [EPIC #751](https://github.com/HardisonCo/codify-launch/issues/751) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/california-direct-potable-reuse-permitting.json) · _protocol authored_
+- **Colorado water court change of water right / plan for augmentation decree** — `colorado-change-of-water-right-and-augmentation-decree` · [EPIC #754](https://github.com/HardisonCo/codify-launch/issues/754) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/colorado-change-of-water-right-and-augmentation-decree.json) · _protocol authored_
+- **DWSRF/CWSRF priority-list funding stacked with an EPA WIFIA loan** — `dwsrf-and-wifia-capital-financing` · [EPIC #756](https://github.com/HardisonCo/codify-launch/issues/756) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/dwsrf-and-wifia-capital-financing.json) · _protocol authored_
+- **Kenya WASREB water services licence and tariff adjustment** — `wasreb-licence-and-tariff-adjustment-kenya` · [EPIC #760](https://github.com/HardisonCo/codify-launch/issues/760) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/wasreb-licence-and-tariff-adjustment-kenya.json) · _protocol authored_
+- **LCRI service line inventory, replacement plan, and mandatory replacement** — `lead-service-line-inventory-and-replacement-program` · [EPIC #746](https://github.com/HardisonCo/codify-launch/issues/746) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/lead-service-line-inventory-and-replacement-program.json) · _protocol authored_
+- **NPDES individual discharge permit issuance (CWA §402)** — `npdes-individual-discharge-permit-issuance` · [EPIC #732](https://github.com/HardisonCo/codify-launch/issues/732) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/npdes-individual-discharge-permit-issuance.json) · _protocol authored_
+- **New public water system / new source approval and start-up (SDWA primacy agency)** — `public-water-system-source-approval-and-startup` · [EPIC #741](https://github.com/HardisonCo/codify-launch/issues/741) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/public-water-system-source-approval-and-startup.json) · _protocol authored_
+- **PFAS drinking water rule: monitoring, public reporting, and treatment compliance** — `pfas-npdwr-monitoring-and-treatment-compliance` · [EPIC #749](https://github.com/HardisonCo/codify-launch/issues/749) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/pfas-npdwr-monitoring-and-treatment-compliance.json) · _protocol authored_
+- **SDWA Tier 1 public notification and boil-water advisory response** — `sdwa-tier-1-public-notification-and-boil-water-response` · [EPIC #758](https://github.com/HardisonCo/codify-launch/issues/758) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-water/deals/sdwa-tier-1-public-notification-and-boil-water-response.json) · _protocol authored_
 
 14 processes mapped.

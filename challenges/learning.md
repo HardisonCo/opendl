@@ -1,7 +1,7 @@
 # 13. Advance Personalized Learning
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `personalized-learning.openyc.org` (provisioning)
+**Status:** 13 of 13 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `personalized-learning.openyc.org` (tenant spec authored; catalogue pool `opendl-personalized-learning`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,18 +10,18 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- 1EdTech LTI 1.3 / LTI Advantage tool certification
-- COPPA-compliant verifiable parental consent architecture under the amended FTC Rule
-- California State Board of Education K-8 instructional materials adoption
-- ED/IES SBIR Phase IA proposal, award, and prototype milestone
-- EIR early-phase grant application under ESSA section 4611 (as LEA partner)
-- ESSA Tier 1 evidence study designed to WWC standards with REES preregistration
-- Ed-Fi data standard API certification for roster/assessment interoperability
-- FERPA school-official exception data privacy agreement with an LEA
-- IRB approval for efficacy research with minors under the Common Rule
-- New York Education Law 2-d third-party contractor compliance (Part 121)
-- PPRA compliance for learner surveys and SEL/affective data collection
-- Section 508 / WCAG 2.1 AA accessibility conformance report (VPAT/ACR)
-- Texas IMRA submission and SBOE approval under HB 1605
+- **1EdTech LTI 1.3 / LTI Advantage tool certification** — `lti-1-3-advantage-certification-1edtech` · [EPIC #814](https://github.com/HardisonCo/codify-launch/issues/814) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/lti-1-3-advantage-certification-1edtech.json) · _protocol authored_
+- **COPPA-compliant verifiable parental consent architecture under the amended FTC Rule** — `coppa-verifiable-parental-consent-program` · [EPIC #795](https://github.com/HardisonCo/codify-launch/issues/795) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/coppa-verifiable-parental-consent-program.json) · _protocol authored_
+- **California State Board of Education K-8 instructional materials adoption** — `california-k8-instructional-materials-adoption` · [EPIC #818](https://github.com/HardisonCo/codify-launch/issues/818) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/california-k8-instructional-materials-adoption.json) · _protocol authored_
+- **ED/IES SBIR Phase IA proposal, award, and prototype milestone** — `ed-ies-sbir-phase-1a-proposal-award` · [EPIC #809](https://github.com/HardisonCo/codify-launch/issues/809) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/ed-ies-sbir-phase-1a-proposal-award.json) · _protocol authored_
+- **EIR early-phase grant application under ESSA section 4611 (as LEA partner)** — `eir-early-phase-grant-application` · [EPIC #812](https://github.com/HardisonCo/codify-launch/issues/812) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/eir-early-phase-grant-application.json) · _protocol authored_
+- **ESSA Tier 1 evidence study designed to WWC standards with REES preregistration** — `essa-tier1-evidence-rct-wwc-validation` · [EPIC #807](https://github.com/HardisonCo/codify-launch/issues/807) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/essa-tier1-evidence-rct-wwc-validation.json) · _protocol authored_
+- **Ed-Fi data standard API certification for roster/assessment interoperability** — `ed-fi-api-certification-sis-assessment` · [EPIC #815](https://github.com/HardisonCo/codify-launch/issues/815) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/ed-fi-api-certification-sis-assessment.json) · _protocol authored_
+- **FERPA school-official exception data privacy agreement with an LEA** — `ferpa-school-official-dpa-execution` · [EPIC #792](https://github.com/HardisonCo/codify-launch/issues/792) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/ferpa-school-official-dpa-execution.json) · _protocol authored_
+- **IRB approval for efficacy research with minors under the Common Rule** — `common-rule-irb-child-research-approval` · [EPIC #804](https://github.com/HardisonCo/codify-launch/issues/804) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/common-rule-irb-child-research-approval.json) · _protocol authored_
+- **New York Education Law 2-d third-party contractor compliance (Part 121)** — `ny-ed-law-2d-vendor-compliance-agreement` · [EPIC #798](https://github.com/HardisonCo/codify-launch/issues/798) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/ny-ed-law-2d-vendor-compliance-agreement.json) · _protocol authored_
+- **PPRA compliance for learner surveys and SEL/affective data collection** — `ppra-survey-notice-and-consent-compliance` · [EPIC #801](https://github.com/HardisonCo/codify-launch/issues/801) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/ppra-survey-notice-and-consent-compliance.json) · _protocol authored_
+- **Section 508 / WCAG 2.1 AA accessibility conformance report (VPAT/ACR)** — `section-508-wcag-acr-vpat-conformance` · [EPIC #816](https://github.com/HardisonCo/codify-launch/issues/816) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/section-508-wcag-acr-vpat-conformance.json) · _protocol authored_
+- **Texas IMRA submission and SBOE approval under HB 1605** — `texas-imra-instructional-materials-submission` · [EPIC #817](https://github.com/HardisonCo/codify-launch/issues/817) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-personalized-learning/deals/texas-imra-instructional-materials-submission.json) · _protocol authored_
 
 13 processes mapped.

@@ -1,7 +1,7 @@
 # 4. Manage the Nitrogen Cycle
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `nitrogen.openyc.org` (provisioning)
+**Status:** 14 of 14 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `nitrogen.openyc.org` (tenant spec authored; catalogue pool `opendl-nitrogen`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,19 +10,19 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- Authorizing anhydrous-ammonia pipeline transport and a marine ammonia transfer terminal
-- Bringing a manure digester's RNG to market: EPA RFS registration, CARB LCFS pathway, and utility interconnection
-- CWA §303(d) nitrogen TMDL development, EPA approval, and watershed implementation planning
-- Class, flag, and port-state approval of an ammonia-fuelled vessel and its bunkering operation
-- Clean Air Act PSD/nonattainment NSR and Title V permitting of a nitric-acid or ammonia plant, with NSPS subpart Ga NOx limits
-- Concentrated animal feeding operation NPDES permit and enforceable nutrient management plan
-- EU nitrate action programme, NVZ designation, and derogation compliance under Directive 91/676/EEC
-- FIFRA registration of a nitrification/urease inhibitor as a nitrogen stabilizer
-- NPDES permit renewal with a total-nitrogen water-quality-based effluent limit (POTW / industrial discharger)
-- Public water system response to a nitrate MCL exceedance under the Safe Drinking Water Act
-- Qualifying a green- or low-carbon ammonia project for the IRC §45V clean hydrogen production credit
-- Risk Management Program, OSHA process safety management, and EPCRA filings for an anhydrous-ammonia facility
-- State certification of nonpoint-source nitrogen credits and offset purchase against a watershed permit
-- TSCA review of an intergeneric nitrogen-fixing microbial inoculant, from field trial to commercial notice
+- **Authorizing anhydrous-ammonia pipeline transport and a marine ammonia transfer terminal** — `anhydrous-ammonia-pipeline-and-marine-terminal-authorization` · [EPIC #734](https://github.com/HardisonCo/codify-launch/issues/734) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/anhydrous-ammonia-pipeline-and-marine-terminal-authorization.json) · _protocol authored_
+- **Bringing a manure digester's RNG to market: EPA RFS registration, CARB LCFS pathway, and utility interconnection** — `manure-digester-rng-rfs-and-lcfs-pathway` · [EPIC #748](https://github.com/HardisonCo/codify-launch/issues/748) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/manure-digester-rng-rfs-and-lcfs-pathway.json) · _protocol authored_
+- **CWA §303(d) nitrogen TMDL development, EPA approval, and watershed implementation planning** — `tmdl-nitrogen-wasteload-allocation-and-watershed-implementation-plan` · [EPIC #715](https://github.com/HardisonCo/codify-launch/issues/715) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/tmdl-nitrogen-wasteload-allocation-and-watershed-implementation-plan.json) · _protocol authored_
+- **Class, flag, and port-state approval of an ammonia-fuelled vessel and its bunkering operation** — `ammonia-fuelled-vessel-and-bunkering-approval` · [EPIC #737](https://github.com/HardisonCo/codify-launch/issues/737) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/ammonia-fuelled-vessel-and-bunkering-approval.json) · _protocol authored_
+- **Clean Air Act PSD/nonattainment NSR and Title V permitting of a nitric-acid or ammonia plant, with NSPS subpart Ga NOx limits** — `psd-title-v-nox-permit-for-nitric-acid-or-ammonia-plant` · [EPIC #724](https://github.com/HardisonCo/codify-launch/issues/724) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/psd-title-v-nox-permit-for-nitric-acid-or-ammonia-plant.json) · _protocol authored_
+- **Concentrated animal feeding operation NPDES permit and enforceable nutrient management plan** — `cafo-npdes-permit-and-nutrient-management-plan` · [EPIC #712](https://github.com/HardisonCo/codify-launch/issues/712) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/cafo-npdes-permit-and-nutrient-management-plan.json) · _protocol authored_
+- **EU nitrate action programme, NVZ designation, and derogation compliance under Directive 91/676/EEC** — `eu-nitrates-directive-action-programme-and-derogation` · [EPIC #750](https://github.com/HardisonCo/codify-launch/issues/750) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/eu-nitrates-directive-action-programme-and-derogation.json) · _protocol authored_
+- **FIFRA registration of a nitrification/urease inhibitor as a nitrogen stabilizer** — `fifra-nitrogen-stabilizer-registration` · [EPIC #745](https://github.com/HardisonCo/codify-launch/issues/745) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/fifra-nitrogen-stabilizer-registration.json) · _protocol authored_
+- **NPDES permit renewal with a total-nitrogen water-quality-based effluent limit (POTW / industrial discharger)** — `npdes-nitrogen-wqbel-permit-renewal` · [EPIC #708](https://github.com/HardisonCo/codify-launch/issues/708) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/npdes-nitrogen-wqbel-permit-renewal.json) · _protocol authored_
+- **Public water system response to a nitrate MCL exceedance under the Safe Drinking Water Act** — `sdwa-nitrate-mcl-exceedance-response-and-tier-1-public-notice` · [EPIC #721](https://github.com/HardisonCo/codify-launch/issues/721) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/sdwa-nitrate-mcl-exceedance-response-and-tier-1-public-notice.json) · _protocol authored_
+- **Qualifying a green- or low-carbon ammonia project for the IRC §45V clean hydrogen production credit** — `clean-ammonia-45v-hydrogen-credit-qualification` · [EPIC #730](https://github.com/HardisonCo/codify-launch/issues/730) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/clean-ammonia-45v-hydrogen-credit-qualification.json) · _protocol authored_
+- **Risk Management Program, OSHA process safety management, and EPCRA filings for an anhydrous-ammonia facility** — `anhydrous-ammonia-rmp-psm-and-epcra-filing` · [EPIC #727](https://github.com/HardisonCo/codify-launch/issues/727) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/anhydrous-ammonia-rmp-psm-and-epcra-filing.json) · _protocol authored_
+- **State certification of nonpoint-source nitrogen credits and offset purchase against a watershed permit** — `nonpoint-nutrient-credit-certification-and-offset-purchase` · [EPIC #718](https://github.com/HardisonCo/codify-launch/issues/718) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/nonpoint-nutrient-credit-certification-and-offset-purchase.json) · _protocol authored_
+- **TSCA review of an intergeneric nitrogen-fixing microbial inoculant, from field trial to commercial notice** — `tsca-mcan-for-engineered-nitrogen-fixing-microbe` · [EPIC #742](https://github.com/HardisonCo/codify-launch/issues/742) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-nitrogen/deals/tsca-mcan-for-engineered-nitrogen-fixing-microbe.json) · _protocol authored_
 
 14 processes mapped.

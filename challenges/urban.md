@@ -1,7 +1,7 @@
 # 6. Restore and Improve Urban Infrastructure
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `urban.openyc.org` (provisioning)
+**Status:** 14 of 14 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `urban.openyc.org` (tenant spec authored; catalogue pool `opendl-urban`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,19 +10,19 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- Brownfield Assessment, State Voluntary Cleanup, and Redevelopment Clearance
-- Clean Water State Revolving Fund Loan for Water Infrastructure
-- Combined Sewer Overflow Long-Term Control Plan and Consent Decree Compliance
-- Distribution Interconnection for Microgrids/EV Infrastructure on City Assets
-- EPA WIFIA Loan Origination for a Major Water Project
-- FAA Part 107 Waiver and Airspace Authorization for Drone Inspection
-- FHWA NEPA Environmental Review for an Urban Highway/Street Project
-- FTA Capital Investment Grant (New Starts/Small Starts) Pipeline
-- Lead Service Line Inventory and Replacement Under the LCRI
-- Municipal Revenue Bond Issuance for Infrastructure Capital
-- NBIS Bridge Inspection, Load Rating, and NBI Submittal
-- NPDES MS4 Stormwater Permit Coverage
-- Small Cell / Broadband Siting in the Municipal Right-of-Way
-- USACE Clean Water Act Section 404 Permit for Waterway-Touching Work
+- **Brownfield Assessment, State Voluntary Cleanup, and Redevelopment Clearance** — `epa-brownfields-assessment-cleanup` · [EPIC #707](https://github.com/HardisonCo/codify-launch/issues/707) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/epa-brownfields-assessment-cleanup.json) · _protocol authored_
+- **Clean Water State Revolving Fund Loan for Water Infrastructure** — `cwsrf-loan-application` · [EPIC #691](https://github.com/HardisonCo/codify-launch/issues/691) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/cwsrf-loan-application.json) · _protocol authored_
+- **Combined Sewer Overflow Long-Term Control Plan and Consent Decree Compliance** — `cso-long-term-control-plan` · [EPIC #711](https://github.com/HardisonCo/codify-launch/issues/711) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/cso-long-term-control-plan.json) · _protocol authored_
+- **Distribution Interconnection for Microgrids/EV Infrastructure on City Assets** — `der-interconnection-city-facilities` · [EPIC #703](https://github.com/HardisonCo/codify-launch/issues/703) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/der-interconnection-city-facilities.json) · _protocol authored_
+- **EPA WIFIA Loan Origination for a Major Water Project** — `wifia-loan-origination` · [EPIC #692](https://github.com/HardisonCo/codify-launch/issues/692) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/wifia-loan-origination.json) · _protocol authored_
+- **FAA Part 107 Waiver and Airspace Authorization for Drone Inspection** — `faa-part-107-waiver-drone-infrastructure-inspection` · [EPIC #699](https://github.com/HardisonCo/codify-launch/issues/699) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/faa-part-107-waiver-drone-infrastructure-inspection.json) · _protocol authored_
+- **FHWA NEPA Environmental Review for an Urban Highway/Street Project** — `fhwa-nepa-highway-environmental-review` · [EPIC #689](https://github.com/HardisonCo/codify-launch/issues/689) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/fhwa-nepa-highway-environmental-review.json) · _protocol authored_
+- **FTA Capital Investment Grant (New Starts/Small Starts) Pipeline** — `fta-capital-investment-grant` · [EPIC #694](https://github.com/HardisonCo/codify-launch/issues/694) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/fta-capital-investment-grant.json) · _protocol authored_
+- **Lead Service Line Inventory and Replacement Under the LCRI** — `lcri-lead-service-line-replacement-program` · [EPIC #693](https://github.com/HardisonCo/codify-launch/issues/693) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/lcri-lead-service-line-replacement-program.json) · _protocol authored_
+- **Municipal Revenue Bond Issuance for Infrastructure Capital** — `municipal-revenue-bond-issuance` · [EPIC #695](https://github.com/HardisonCo/codify-launch/issues/695) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/municipal-revenue-bond-issuance.json) · _protocol authored_
+- **NBIS Bridge Inspection, Load Rating, and NBI Submittal** — `nbis-bridge-inspection-load-rating` · [EPIC #697](https://github.com/HardisonCo/codify-launch/issues/697) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/nbis-bridge-inspection-load-rating.json) · _protocol authored_
+- **NPDES MS4 Stormwater Permit Coverage** — `npdes-ms4-stormwater-permit` · [EPIC #688](https://github.com/HardisonCo/codify-launch/issues/688) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/npdes-ms4-stormwater-permit.json) · _protocol authored_
+- **Small Cell / Broadband Siting in the Municipal Right-of-Way** — `small-cell-row-siting-shot-clock` · [EPIC #701](https://github.com/HardisonCo/codify-launch/issues/701) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/small-cell-row-siting-shot-clock.json) · _protocol authored_
+- **USACE Clean Water Act Section 404 Permit for Waterway-Touching Work** — `usace-section-404-dredge-fill-permit` · [EPIC #690](https://github.com/HardisonCo/codify-launch/issues/690) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-urban/deals/usace-section-404-dredge-fill-permit.json) · _protocol authored_
 
 14 processes mapped.

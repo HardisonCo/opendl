@@ -1,7 +1,7 @@
 # 14. Engineer the Tools of Scientific Discovery
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `scientific-discovery.openyc.org` (provisioning)
+**Status:** 14 of 14 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `scientific-discovery.openyc.org` (tenant spec authored; catalogue pool `opendl-scientific-discovery`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,19 +10,19 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- Bayh-Dole invention reporting through iEdison and license-out to the operating entity
-- DOE O 413.3B Critical Decision sequence for a mid-scale instrument build
-- DOE user-facility General User Proposal and beamtime allocation
-- Export-control classification and licensing for instruments, components, and foreign-national access
-- FCC equipment authorization for an RF-emitting laboratory instrument (Part 18 vs Part 15)
-- FDA CDRH electronic-product radiation report for a laser or X-ray instrument
-- FDA Radioactive Drug Research Committee approval for basic research with a new imaging tracer
-- IRB significant-risk determination and IDE pathway for a novel diagnostic or imaging instrument
-- ISO/IEC 17025 accreditation for a calibration or test laboratory
-- NIH S10 Shared Instrumentation Grant / High-End Instrumentation application
-- NRC or Agreement State byproduct-material license (Type A broad scope) for an instrument program
-- NSF Major Research Instrumentation (MRI) proposal — acquisition or development
-- Standing up the physical lab: RCRA generator status, air and discharge permits, and dangerous-goods shipping
-- State radiation-control-program registration and shielding review for radiation-producing machines
+- **Bayh-Dole invention reporting through iEdison and license-out to the operating entity** — `bayh-dole-invention-reporting-and-licensing` · [EPIC #784](https://github.com/HardisonCo/codify-launch/issues/784) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/bayh-dole-invention-reporting-and-licensing.json) · _protocol authored_
+- **DOE O 413.3B Critical Decision sequence for a mid-scale instrument build** — `doe-413-3b-critical-decision-baseline` · [EPIC #765](https://github.com/HardisonCo/codify-launch/issues/765) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/doe-413-3b-critical-decision-baseline.json) · _protocol authored_
+- **DOE user-facility General User Proposal and beamtime allocation** — `doe-user-facility-general-user-proposal` · [EPIC #764](https://github.com/HardisonCo/codify-launch/issues/764) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/doe-user-facility-general-user-proposal.json) · _protocol authored_
+- **Export-control classification and licensing for instruments, components, and foreign-national access** — `bis-commodity-classification-and-export-license` · [EPIC #769](https://github.com/HardisonCo/codify-launch/issues/769) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/bis-commodity-classification-and-export-license.json) · _protocol authored_
+- **FCC equipment authorization for an RF-emitting laboratory instrument (Part 18 vs Part 15)** — `fcc-part-18-equipment-authorization` · [EPIC #768](https://github.com/HardisonCo/codify-launch/issues/768) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/fcc-part-18-equipment-authorization.json) · _protocol authored_
+- **FDA CDRH electronic-product radiation report for a laser or X-ray instrument** — `fda-radiation-emitting-product-report-laser` · [EPIC #767](https://github.com/HardisonCo/codify-launch/issues/767) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/fda-radiation-emitting-product-report-laser.json) · _protocol authored_
+- **FDA Radioactive Drug Research Committee approval for basic research with a new imaging tracer** — `rdrc-radioactive-drug-basic-research-approval` · [EPIC #774](https://github.com/HardisonCo/codify-launch/issues/774) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/rdrc-radioactive-drug-basic-research-approval.json) · _protocol authored_
+- **IRB significant-risk determination and IDE pathway for a novel diagnostic or imaging instrument** — `fda-nsr-device-ide-determination` · [EPIC #778](https://github.com/HardisonCo/codify-launch/issues/778) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/fda-nsr-device-ide-determination.json) · _protocol authored_
+- **ISO/IEC 17025 accreditation for a calibration or test laboratory** — `iso-17025-calibration-lab-accreditation` · [EPIC #771](https://github.com/HardisonCo/codify-launch/issues/771) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/iso-17025-calibration-lab-accreditation.json) · _protocol authored_
+- **NIH S10 Shared Instrumentation Grant / High-End Instrumentation application** — `nih-s10-shared-instrumentation-grant-application` · [EPIC #763](https://github.com/HardisonCo/codify-launch/issues/763) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/nih-s10-shared-instrumentation-grant-application.json) · _protocol authored_
+- **NRC or Agreement State byproduct-material license (Type A broad scope) for an instrument program** — `nrc-broad-scope-byproduct-material-license` · [EPIC #766](https://github.com/HardisonCo/codify-launch/issues/766) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/nrc-broad-scope-byproduct-material-license.json) · _protocol authored_
+- **NSF Major Research Instrumentation (MRI) proposal — acquisition or development** — `nsf-major-research-instrumentation-proposal` · [EPIC #762](https://github.com/HardisonCo/codify-launch/issues/762) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/nsf-major-research-instrumentation-proposal.json) · _protocol authored_
+- **Standing up the physical lab: RCRA generator status, air and discharge permits, and dangerous-goods shipping** — `lab-environmental-and-waste-permitting` · [EPIC #787](https://github.com/HardisonCo/codify-launch/issues/787) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/lab-environmental-and-waste-permitting.json) · _protocol authored_
+- **State radiation-control-program registration and shielding review for radiation-producing machines** — `state-radiation-producing-machine-registration` · [EPIC #781](https://github.com/HardisonCo/codify-launch/issues/781) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-scientific-discovery/deals/state-radiation-producing-machine-registration.json) · _protocol authored_
 
 14 processes mapped.

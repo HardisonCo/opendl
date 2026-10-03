@@ -1,7 +1,7 @@
 # 12. Enhance Virtual Reality
 
-**Status:** specification. Every process below is an open protocol spec — none is shipped.
-**Surface:** `virtual-reality.openyc.org` (provisioning)
+**Status:** 13 of 13 processes have an authored, source-cited protocol pack (intent + deal template + step typings) in CI-API; programs are generated on the tenant by the operator lane. Nothing here claims a solved challenge.
+**Surface:** `virtual-reality.openyc.org` (tenant spec authored; catalogue pool `opendl-virtual-reality`, parent `opendl`)
 
 ## The institutional path
 
@@ -10,18 +10,18 @@ human, permit-and-review steps that no amount of parallel experimentation remove
 Each is being codified as a runnable protocol: typed steps, named roles, verification
 gates.
 
-- BIS export-control classification and encryption reporting (EAR Cat. 5 Pt. 2)
-- Bluetooth SIG qualification and declaration for controllers/wearables
-- CMS HCPCS Level II code + benefit category determination for VR DME
-- COPPA program + FTC-approved safe-harbor certification for youth VR
-- EU CE marking under the Radio Equipment Directive for EU headset sales
-- FCC Part 15 equipment authorization (certification) for a VR headset's radios
-- FDA De Novo / 510(k) for a prescription VR therapeutic
-- FDA IDE for a significant-risk VR device clinical investigation
-- GDPR DPIA + Illinois BIPA program for eye/face/body tracking data
-- IRB approval for VR human-subjects research (Common Rule)
-- Meta Horizon Store submission: VRC technical review + IARC content rating
-- UN 38.3 lithium-battery testing and PHMSA/IATA transport compliance
-- USPTO utility patent application for core VR IP (optics, haptics, locomotion)
+- **BIS export-control classification and encryption reporting (EAR Cat. 5 Pt. 2)** — `bis-ear-encryption-self-classification` · [EPIC #858](https://github.com/HardisonCo/codify-launch/issues/858) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/bis-ear-encryption-self-classification.json) · _protocol authored_
+- **Bluetooth SIG qualification and declaration for controllers/wearables** — `bluetooth-sig-product-qualification` · [EPIC #872](https://github.com/HardisonCo/codify-launch/issues/872) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/bluetooth-sig-product-qualification.json) · _protocol authored_
+- **CMS HCPCS Level II code + benefit category determination for VR DME** — `cms-hcpcs-level-ii-code-application` · [EPIC #851](https://github.com/HardisonCo/codify-launch/issues/851) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/cms-hcpcs-level-ii-code-application.json) · _protocol authored_
+- **COPPA program + FTC-approved safe-harbor certification for youth VR** — `ftc-coppa-compliance-safe-harbor-certification` · [EPIC #866](https://github.com/HardisonCo/codify-launch/issues/866) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/ftc-coppa-compliance-safe-harbor-certification.json) · _protocol authored_
+- **EU CE marking under the Radio Equipment Directive for EU headset sales** — `eu-red-ce-marking-conformity-assessment` · [EPIC #854](https://github.com/HardisonCo/codify-launch/issues/854) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/eu-red-ce-marking-conformity-assessment.json) · _protocol authored_
+- **FCC Part 15 equipment authorization (certification) for a VR headset's radios** — `fcc-part15-equipment-authorization` · [EPIC #824](https://github.com/HardisonCo/codify-launch/issues/824) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/fcc-part15-equipment-authorization.json) · _protocol authored_
+- **FDA De Novo / 510(k) for a prescription VR therapeutic** — `fda-de-novo-vr-behavioral-therapy-device` · [EPIC #827](https://github.com/HardisonCo/codify-launch/issues/827) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/fda-de-novo-vr-behavioral-therapy-device.json) · _protocol authored_
+- **FDA IDE for a significant-risk VR device clinical investigation** — `fda-ide-significant-risk-vr-trial` · [EPIC #847](https://github.com/HardisonCo/codify-launch/issues/847) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/fda-ide-significant-risk-vr-trial.json) · _protocol authored_
+- **GDPR DPIA + Illinois BIPA program for eye/face/body tracking data** — `gdpr-dpia-bipa-biometric-eye-tracking-program` · [EPIC #869](https://github.com/HardisonCo/codify-launch/issues/869) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/gdpr-dpia-bipa-biometric-eye-tracking-program.json) · _protocol authored_
+- **IRB approval for VR human-subjects research (Common Rule)** — `irb-common-rule-human-subjects-protocol` · [EPIC #848](https://github.com/HardisonCo/codify-launch/issues/848) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/irb-common-rule-human-subjects-protocol.json) · _protocol authored_
+- **Meta Horizon Store submission: VRC technical review + IARC content rating** — `meta-horizon-store-vrc-iarc-submission` · [EPIC #874](https://github.com/HardisonCo/codify-launch/issues/874) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/meta-horizon-store-vrc-iarc-submission.json) · _protocol authored_
+- **UN 38.3 lithium-battery testing and PHMSA/IATA transport compliance** — `phmsa-un383-lithium-battery-transport-certification` · [EPIC #861](https://github.com/HardisonCo/codify-launch/issues/861) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/phmsa-un383-lithium-battery-transport-certification.json) · _protocol authored_
+- **USPTO utility patent application for core VR IP (optics, haptics, locomotion)** — `uspto-utility-patent-prosecution` · [EPIC #864](https://github.com/HardisonCo/codify-launch/issues/864) · [protocol pack](https://github.com/HardisonCo/CI-API/blob/main/Modules/Codify/Database/Seeders/bundles/opendl-virtual-reality/deals/uspto-utility-patent-prosecution.json) · _protocol authored_
 
 13 processes mapped.
